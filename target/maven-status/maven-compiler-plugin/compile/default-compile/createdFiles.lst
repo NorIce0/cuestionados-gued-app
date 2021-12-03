@@ -1,0 +1,5 @@
+com/init/products/config/SwaggerConfig.class
+com/init/products/controller/ProductController.class
+com/init/products/App.class
+com/init/products/dao/ProductsDAO.class
+com/init/products/entity/Product.class
