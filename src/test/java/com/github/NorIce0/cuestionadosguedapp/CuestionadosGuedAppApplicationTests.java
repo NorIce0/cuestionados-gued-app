@@ -1,10 +1,10 @@
-package com.init.products;
+package com.github.NorIce0.cuestionadosguedapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AppTests {
+class CuestionadosGuedAppApplicationTests {
 
 	@Test
 	void contextLoads() {

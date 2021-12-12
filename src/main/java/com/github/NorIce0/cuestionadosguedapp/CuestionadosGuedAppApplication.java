@@ -1,13 +1,13 @@
-package com.init.products;
+package com.github.NorIce0.cuestionadosguedapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class App {
+public class CuestionadosGuedAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(App.class, args);
+		SpringApplication.run(CuestionadosGuedAppApplication.class, args);
 	}
 
 }
