@@ -36,10 +36,10 @@ public class SwaggerConfig {
 	private ApiInfo getApiInfo() {
 		return new ApiInfo(
 				"Questionados Gued", // titulo
-				"Questionados Gued API Description", // descripcion
+				"Juego de preguntas y respuestas", // descripcion
 				"1.0", // version
-				"https://cuestionados-gued-app.herokuapp.com/terms", // termsOfServiceUrl
-				new Contact("Esteban Uranga", "https://github.com/NorIce0", "euadenez8@gmail.com"), // contact
+				"http://questionados.com.ar/terms", // termsOfServiceUrl
+				new Contact("Questionados", "http://questionados.com.ar/terms", "info@questionados.com.ar"), // contact
 				"LICENSE", // license
 				"LICENSE URL", // licenseUrl
 				Collections.emptyList() // vendorExtensions

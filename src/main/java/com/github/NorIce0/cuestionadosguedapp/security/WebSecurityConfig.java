@@ -69,6 +69,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(AUTH_WHITELIST).permitAll() // whitelist Swagger UI resources
                 .antMatchers("/api/auth/**").permitAll() // auth
                 .antMatchers("/api/test/**").permitAll() // test
+				.antMatchers("/api/categorias/**").permitAll() // test
+				.antMatchers("/api/preguntas/**").permitAll() // test
+				.antMatchers("/api/questionados/**").permitAll() // test
                 .anyRequest().authenticated();
 
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
